@@ -2,3 +2,4 @@
 Mini Docs for Android Java/Kotlin
 
 - [Basic Interaction](basic-interaction.md)
+- [Animations](animations.md)
