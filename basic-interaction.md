@@ -29,3 +29,10 @@ user_name.getText().toString()
 Toast.makeText(this, "show this", Toast.LENGTH_SHORT).show();
 ```
 
+### Hide Topbar
+
+```
+getSupportActionBar().hide();
+```
+
+*inside onCreate*
