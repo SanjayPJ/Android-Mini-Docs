@@ -29,6 +29,12 @@ user_name.getText().toString()
 Toast.makeText(this, "show this", Toast.LENGTH_SHORT).show();
 ```
 
+### To show debug log
+
+```
+Log.d("myTag", "This is a message");
+```
+
 ### Hide Topbar
 
 ```
