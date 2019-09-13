@@ -42,3 +42,12 @@ getSupportActionBar().hide();
 ```
 
 *inside onCreate*
+
+### Iterate Through Layouts
+
+```
+for(int i=0; i<myGridView.getChildCount(); i++) {
+    TextView child = (TextView)mGridView.getChildAt(i);
+    // do stuff with child view
+}
+```
