@@ -17,6 +17,12 @@ public void function_name(View view){
 EditText password = (EditText) findViewById(R.id.password);
 ```
 
+### Set Text on a TextView
+
+```
+password.setText(message);
+```
+
 #### To show EditText
 
 ```
