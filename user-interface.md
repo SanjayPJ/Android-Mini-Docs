@@ -42,6 +42,18 @@
   app:layout_constraintTop_toTopOf="parent" />
 ```
 
+#### Checkbox
+
+```
+<CheckBox
+android:id="@+id/checkBox"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+android:paddingLeft="10dp"
+android:text="Whipped cream" />
+```
+
 ### ViewGroups
 
 #### Linear Layout
@@ -167,4 +179,13 @@
   android:background="@mipmap/ic_launcher" />  
   
  </LinearLayout> </TableRow></TableLayout>
+```
+
+### Scroll View
+
+```
+<ScrollView
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+</ScrollView>
 ```
