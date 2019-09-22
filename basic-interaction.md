@@ -57,3 +57,10 @@ for(int i=0; i<myGridView.getChildCount(); i++) {
     // do stuff with child view
 }
 ```
+
+### Getting values from checkbox
+
+```
+CheckBox chocolateCheckBox = (CheckBox) findViewById(R.id.chocolate_checkbox);
+boolean hasChocolate = chocolateCheckBox.isChecked();
+```
