@@ -43,3 +43,27 @@ Intent intent = new Intent(this, NumbersActivity.class);
 startActivity(intent);
 ```
 
+
+```
+#### Change name of activity
+
+```
+<activity android:name=".NumbersActivity" android:label="@string/category_numbers" />
+```
+
+#### Setting OnClickListener
+
+```
+TextView numbers = (TextView) findViewById(R.id.numbers);  
+  
+if (numbers != null) {  
+    numbers.setOnClickListener(new View.OnClickListener() {  
+  
+        @Override  
+  public void onClick(View view) {  
+            Intent numbersIntent = new Intent(MainActivity.this, NumbersActivity.class);  
+  startActivity(numbersIntent);  
+  }  
+    });  
+}
+```
