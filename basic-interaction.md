@@ -17,6 +17,12 @@ public void function_name(View view){
 EditText password = (EditText) findViewById(R.id.password);
 ```
 
+### Get Content from text area
+
+```
+String nameTextBoxContent = nameTextBox.getText().toString();
+```
+
 ### Set Text on a TextView
 
 ```
