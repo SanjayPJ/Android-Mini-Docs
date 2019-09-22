@@ -5,3 +5,4 @@ Mini Docs for Android Java/Kotlin
 - [User Interface](user-interface.md)
 - [Animations](animations.md)
 - [Intents](intents.md)
+- [Styles and Themes](styles-and-themes.md)
