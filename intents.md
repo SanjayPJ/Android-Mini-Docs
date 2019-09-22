@@ -27,3 +27,19 @@ public void composeEmail(String[] addresses, String subject, String order_summar
 String main_addresses[] = { "sanjaypj@gmail.com" };  
 composeEmail(main_addresses, "order", order_summary);
 ```
+
+### Creating Activities
+
+- *right click on app folder*
+- *select new*
+- *select activity*
+- *select empty activity*
+- *enter activity name*
+
+#### Start new activity
+
+```
+Intent intent = new Intent(this, NumbersActivity.class);  
+startActivity(intent);
+```
+
