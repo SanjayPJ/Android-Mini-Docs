@@ -1,7 +1,6 @@
-## Creating Intents
+## Implicit Intents
 
-
-### Implicit Intents
+### Creating Intents
 
 #### Create a geolocation intent
 ```
