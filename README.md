@@ -6,3 +6,4 @@ Mini Docs for Android Java/Kotlin
 - [Animations](animations.md)
 - [Activities and Intents](intents.md)
 - [Styles and Themes](styles-and-themes.md)
+- [Adding Icons](icons.md)
