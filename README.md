@@ -7,3 +7,4 @@ Mini Docs for Android Java/Kotlin
 - [Implicit vs. Explicit Intents](intents.md)
 - [Styles and Themes](styles-and-themes.md)
 - [Adding Icons](icons.md)
+- [View Recycling](view-recycling.md)
