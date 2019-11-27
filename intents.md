@@ -1,5 +1,8 @@
 ## Creating Intents
 
+
+### Implicit Intents
+
 #### Create a geolocation intent
 ```
 Intent intent = new Intent(Intent.ACTION_VIEW);  
@@ -27,6 +30,9 @@ public void composeEmail(String[] addresses, String subject, String order_summar
 String main_addresses[] = { "sanjaypj@gmail.com" };  
 composeEmail(main_addresses, "order", order_summary);
 ```
+
+
+## Explicit Intents
 
 ### Creating Activities
 
